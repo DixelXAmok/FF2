@@ -18,7 +18,7 @@ function magBall(ball)
        firetouchinterest(player.Character["Right Arm"], ball, 1)
    end
 end
-section1:addTextbox("Mags should auto disable if you are voted as QB", nil, function()end)
+section1:addTextbox("Only Pick 1 Mag!", nil, function()end)
 section1:addToggle("Legit Magnets", nil, function(bool)
     shared.Mags = bool
     rs.Stepped:Connect(function()
